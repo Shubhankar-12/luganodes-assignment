@@ -10,7 +10,7 @@ const Card = ({ Name, supply, stake, validator, image }) => {
                 </div>
                 <div className="card_content">
                     <h2>{Name}</h2>
-                    <p>Supply: {supply}</p>
+                    <p>Rate: {supply}</p>
                     <p>Stake: {stake}</p>
                     <p>Validator: {validator}</p>
 
