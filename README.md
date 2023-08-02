@@ -1,6 +1,6 @@
 # Luganode Assignment Readme
 
-![Luganode Assignment](project_banner.png)
+![Luganode Assignment](https://github.com/Shubhankar-12/luganodes-assignment/blob/main/public/images/scr%201.png)
 
 Welcome to the **Luganode Assignment** project! This project showcases the stake values and rates of the Cardano, Kusama, and Polkadot blockchain networks using React, Axios, and Tailwind CSS. The application utilizes the Stakerewards API to fetch and display real-time data.
 
