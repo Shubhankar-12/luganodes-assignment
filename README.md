@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Luganode Assignment Readme
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Luganode Assignment](project_banner.png)
 
-## Available Scripts
+Welcome to the **Luganode Assignment** project! This project showcases the stake values and rates of the Cardano, Kusama, and Polkadot blockchain networks using React, Axios, and Tailwind CSS. The application utilizes the Stakerewards API to fetch and display real-time data.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Introduction
 
-### `npm test`
+The Luganode Assignment project is a web application that provides users with information about the stake values and rates of the Cardano, Kusama, and Polkadot blockchain networks. The application is built using React for the front-end, Axios for making API requests, and Tailwind CSS for styling.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Real-time stake values and rates for Cardano, Kusama, and Polkadot networks.
+- Responsive and user-friendly interface.
+- Data fetched from the Stakerewards API.
+- Customizable and easy-to-use.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Before you begin, ensure you have the following installed on your system:
 
-### `npm run eject`
+- Node.js: [Download and install Node.js](https://nodejs.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone https://github.com/your-username/luganode-assignment.git
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project directory:
 
-## Learn More
+   ```bash
+   cd luganode-assignment
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install the dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm install
+   ```
 
-### Code Splitting
+### Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Obtain an API key from the Stakerewards API by signing up on their website.
 
-### Analyzing the Bundle Size
+2. Create a `.env` file in the root directory of the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Add your API key to the `.env` file:
 
-### Making a Progressive Web App
+   ```env
+   REACT_APP_API_KEY=stakereward_api_key_here
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Usage
 
-### Advanced Configuration
+1. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```bash
+   npm start
+   ```
 
-### Deployment
+2. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Screenshots
 
-### `npm run build` fails to minify
+![Screenshot 1](screenshots/screenshot1.png)
+_Example screenshot of stake values and rates._
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+
+Contributions to the Luganode Assignment project are welcome and encouraged! If you have improvements or bug fixes, feel free to submit a pull request.
+
+1. Fork the project.
+2. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name` or `git checkout -b bugfix/your-bug-fix`.
+3. Commit your changes: `git commit -m "Add your message here"`.
+4. Push to the branch: `git push origin feature/your-feature-name` or `git push origin bugfix/your-bug-fix`.
+5. Open a pull request.
