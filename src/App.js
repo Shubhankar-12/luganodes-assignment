@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from 'react'
-import Navbar from './components/Navbar'
-import Main from './components/Main'
+
+import Main from './components/Main/Main'
 
 const App = () => {
 
   return (
     <div>
-      <Navbar />
+
       <Main />
     </div>
   )
